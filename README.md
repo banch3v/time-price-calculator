@@ -1,2 +1,1 @@
-# time-price-calculator
-App for calulating price based on spent time
+App for calculating price based on time spent
