@@ -1,9 +1,9 @@
-import { Text } from "@chakra-ui/react";
+import Header from "./components/Header/Header";
 
 function App() {
   return (
     <>
-      <Text color="brand.900">Yahoo</Text>
+      <Header />
     </>
   );
 }
