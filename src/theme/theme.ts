@@ -24,15 +24,37 @@ const theme = extendTheme({
   layerStyles: {
     section: {
       base: {
-        padding: ["60px 20px", null, "80px 30px", null, "100px 50px"],
-        maxWidth: "1440px",
+        padding: ["40px 20px", null, "60px 30px", null, "80px 50px"],
         margin: "0 auto",
       },
 
-      xs: {
+      sm: {
         padding: ["20px 20px", null, "20px 30px", null, "20px 50px"],
-        maxWidth: "1440px",
         margin: "0 auto",
+      },
+      md: {
+        padding: ["20px 20px", null, "40px 30px", null, "60px 50px"],
+        margin: "0 auto",
+      },
+      notb: {
+        padding: ["0px 20px", null, "0px 30px", null, "0px 50px"],
+        margin: "0 auto",
+      },
+    },
+    grid: {
+      fullWidth: {
+        w: "100%",
+        maxW: "100%",
+      },
+      inGrid: {
+        w: "100%",
+        maxW: "1280px",
+        mx: "auto",
+      },
+      shortGrid: {
+        w: "100%",
+        maxW: "900px",
+        mx: "auto",
       },
     },
   },
